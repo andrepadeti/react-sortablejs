@@ -6,7 +6,7 @@ function Navbar() {
       <MDBNavbar color="indigo" dark expand="md">
         <MDBNavbarBrand>
           {/* <a className="navbar-brand" href="#">
-            <img src="./round_icon.svg" height="30" alt="" />
+            <img src="round_icon.svg" height="30" alt="" />
           </a> */}
           <strong className="white-text">Round English</strong>
         </MDBNavbarBrand>
