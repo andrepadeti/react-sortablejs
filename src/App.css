@@ -1,5 +1,4 @@
 body {
-  /* font-size: 25px; */
   background-color: white;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -10,21 +9,13 @@ p {
 }
 
 .sentenceContainer{
-   /* border-style: solid; */
-   /* border-width: 1px; */
    display: flex;
    margin-top: 20px;
    background-color: lightblue;
    border-radius: 5px;
-   /* flex-direction: row;
-   flex-wrap: wrap; */
 }
 
 .sentence{
-   /* border-style: solid; */
-   /* border-width: 1px; */
-   /* position: absolute; */
-   /* to centre the words in the div: */
    padding: 5px 5px; 
 }
 
@@ -32,22 +23,13 @@ p {
    list-style-type: none; 
    margin: 0; 
    padding: 0; 
-   /* width: 50%;  */
-   /* height: 150px; */
 }
 
 .check{
-   /* border-style: solid; */
-   /* border-width: 1px; */
    width: 100%;
 }
 
 img {
-   /* display: block; */
-   /* margin-left: auto; */
-   /* margin-right: auto; */
-   /* width: 40%; */
-   /* all below to centre the icon */
    margin: 0;
    position: relative;
    top: 50%;
@@ -59,15 +41,11 @@ img {
    border-style: solid;
    border-width: thin;
    border-radius: 5px;
-   /* background-color: lightseagreen; */
-
    margin: 3px; 
    padding-left: 10px; 
    padding-right: 10px;
    float: left; 
    cursor: grab;
-   /* width: 10%;  */
-   /* height: 40px;  */
    font-size: 1.5em; 
    text-align: center; 
 }
@@ -81,9 +59,7 @@ img {
 }
 
 .highlight {
-   /* border: solid red; */
    font-weight: bold;
-   /* font-size: 45px; */
    background-color: gray;
 }
 
@@ -96,15 +72,7 @@ img {
 }
 
 .sentenceNumber{
-   /* border-style: solid; */
-   /* border-width: 1px; */
-   /* margin-right: 1%; */
-   /* text-align: center; */
-   /* vertical-align: middle; */
-   /* margin: auto; */
-   /* width: 50%; */
    font-size: 1.5em;
-
    display: flex;
    justify-content: center;
    align-items: center;

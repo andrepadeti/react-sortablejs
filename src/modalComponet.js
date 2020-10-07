@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
-import { MDBContainer, MDBBtn, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter } from 'mdbreact'
+import { MDBBtn, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter } from 'mdbreact'
 
 export default function Modal(props) {
   const [ modal, setModal ] = useState( (props.modal === 'true') ? true : false )
-  
   // if (props.modal) setModal(true)
 
   const toggle = () => {
@@ -11,10 +10,7 @@ export default function Modal(props) {
   }
 
     return (
-      <MDBContainer>
-        {/* BUTTON */}
-        {/* <MDBBtn color="info" onClick={toggle}>Click</MDBBtn> */}
-        {/* MODAL */}
+      // should I use <MDBContainer> to wrap it all?
         <MDBModal isOpen={modal} toggle={toggle}    >
           <MDBModalHeader toggle={toggle}>Well done!</MDBModalHeader>
           <MDBModalBody>
@@ -26,6 +22,5 @@ export default function Modal(props) {
             <MDBBtn color="secondary" onClick={toggle}>Close</MDBBtn>
           </MDBModalFooter>
         </MDBModal>
-      </MDBContainer>
     )
 }
